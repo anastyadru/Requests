@@ -1,3 +1,3 @@
 import requests
 
-requests.get("https://httpbin.org/get")
+response = requests.get("https://httpbin.org/get")
