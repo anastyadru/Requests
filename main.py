@@ -2,6 +2,7 @@ import requests
 
 response = requests.get("https://httpbin.org/get")
 
-if response.statuc_code ==
+if response.statuc_code == 200:
+
 
 print(response)
