@@ -2,7 +2,7 @@ import requests
 
 response = requests.get("https://httpbin.org/get")
 
-headers = {"User-Agent": }
+headers = {"User-Agent": 'IT'}
 
 #if response.statuc_code == 200:
     #print("OK")
