@@ -7,4 +7,4 @@ headers = {
 response = requests.get("https://httpbin.org/get", headers=headers)
 
 
-print(response)
+print(response.text)
