@@ -1,13 +1,10 @@
 import requests
 
-response = requests.get("https://httpbin.org/get", headers=headers)
-
-headers = {"User-Agent": "IT OVERONE",
+headers = {
+    "User-Agent": "IT OVERONE"
 }
 
-#if response.statuc_code == 200:
-    #print("OK")
+response = requests.get("https://httpbin.org/get", headers=headers)
 
-response.raise_for_status()
 
 print(response)
