@@ -1,6 +1,6 @@
 import requests
 
-response = requests.get("https://httpbin.org/get")
+response = requests.get("https://httpbin.org/get", headers=headers)
 
 headers = {"User-Agent": "IT OVERONE",
 }
