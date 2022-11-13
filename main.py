@@ -4,7 +4,7 @@ headers = {
     "User-Agent": "IT OVERONE"
 }
 
-response = requests.get("https://httpbin.org/get", headers=headers, params={'a': 'b'})
+response = requests.post("https://httpbin.org/get", headers=headers, params={'a': 'b'})
 
 
 print(response.text)
