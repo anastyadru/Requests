@@ -6,7 +6,8 @@ headers = {
 
 response = requests.post("https://httpbin.org/post",
                          headers=headers,
-                         params={'a': 'b'})
+                         params={'a': 'b'},
+
 
 
 print(response.text)
