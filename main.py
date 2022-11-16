@@ -7,7 +7,7 @@ headers = {
 response = requests.post("https://httpbin.org/post",
                          headers=headers,
                          params={'a': 'b'},
-                         json={'username': ''})
+                         json={'username': 'supersecret'})
 
 
 print(response.text)
