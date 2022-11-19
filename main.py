@@ -1,3 +1,3 @@
 import requests
 
-website =
+website = "https://jsonplaceholder.typicode.com/posts"
