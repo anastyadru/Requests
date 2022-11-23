@@ -1,4 +1,4 @@
 import requests
 
 website = "https://jsonplaceholder.typicode.com/posts"
-responce = requests.get
+response = requests.get(website)
