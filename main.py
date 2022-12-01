@@ -4,6 +4,7 @@ website = "https://jsonplaceholder.typicode.com/posts"
 response = requests.post(website, data={
     "userld": 12,
     "title": "my new post",
+    "body":
 })
 
 print(response.text)
