@@ -5,7 +5,7 @@ response = requests.post(website, json={
     "userld": 12,
     "title": "my new post",
     "body": "body for my post IT",
-    "photo":
+    "photo": {"1.jpg", ""}
 })
 
 print(response.text)
