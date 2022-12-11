@@ -7,4 +7,4 @@ response = requests.put(website, json={
     "body": "body for my post IT"
 })
 
-print(response.text)
+print(response.status_code)
