@@ -1,8 +1,8 @@
 import requests
 
 website = "https://jsonplaceholder.typicode.com/posts"
-response = requests.put(website, json={
-    "id": 10,
+response = requests.put(website, data={
+    "id": 1,
     "userld": 12,
     "title": "my new post",
     "body": "body for my post IT"
