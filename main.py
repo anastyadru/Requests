@@ -1,6 +1,6 @@
 import requests
 
-website = "https://jsonplaceholder.typicode.com/posts"
+website = "https://jsonplaceholder.typicode.com/posts/1"
 response = requests.put(website, data={
     "id": 1,
     "userld": 12,
