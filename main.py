@@ -8,4 +8,4 @@ response = requests.put(website, data={
     "body": "body for my post IT"
 })
 
-print(response.status_code)
+print(response.json())
