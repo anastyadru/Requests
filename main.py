@@ -1,7 +1,7 @@
 import requests
 
 website = "https://jsonplaceholder.typicode.com/posts/1"
-print(requests)
+print(requests.get(website).json())
 
 response = requests.put(website, data={
     "id": 1,
