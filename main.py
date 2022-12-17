@@ -7,5 +7,3 @@ response = requests.put(website, data={
     "title": "my new post",
     "body": "body for my post"
 })
-
-print(response.json())
